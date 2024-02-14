@@ -78,3 +78,14 @@ h2{
     font-family:" Big Shoulders Display", sans-serif;
     font-weight: 700;
 }
+@media screen and (max-width: 480px) {
+   body{
+        padding: 0;
+        margin: 0;    
+   }
+   main{
+    display: flex;
+    flex-direction: column;
+   }
+    
+}
